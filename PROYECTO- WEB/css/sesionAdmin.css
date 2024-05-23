@@ -1,0 +1,162 @@
+/* Resetear estilos por defecto del navegador */
+body {
+    font-family: sans-serif;
+    font-weight: bolder;
+    margin: 200px;
+    padding: 10px;
+    background-color: #ffffffb9;
+    background-image: url();
+    justify-content: center;
+    height: 200vh;
+    background-size:cover; /* imagen de fondo cubra completamente  */
+    background-position: center center; /* Centra la imagen de donfo en el medio del contenedor */
+    background-repeat: no-repeat; /* evita que se repita la imagen del fondo  */
+    }
+
+
+    .icono-redondo {
+        width: 100px; /* Ajusta el tamaño del icono */
+        height: 100px;
+        background-image: url('../img/adm.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 50%;
+        margin: 0 auto 50px auto; /* Centra el icono horizontalmente y añade margen inferior */
+    }
+
+    .login-container h1 {
+        margin: 0 0 20px 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .login-container form {
+        margin: 0 0 20px 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+form, h2
+{
+    font-family: sans-serif;
+    font-family: sans-serif;
+    font-weight: bolder;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     }
+
+
+form{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    }
+
+label{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+input{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+ button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Estilos generales */
+body {
+    font-family: sans-serif;
+    text-align: center;
+    display: flex;
+
+}
+
+
+
+h1 {
+    color: #000000;
+    font-size: 24px;
+    margin: 20px 0;
+    
+}
+
+
+/* Estilos para el formulario */
+#loginForm {
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(238, 234, 234);
+    padding: 100px;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    background-color:#02020214; /* Fondo blanco con transparencia */
+    background-image: url(../img/ses.jpg);
+}
+
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #fffdfd;
+    margin-bottom: 10px
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #0000005a;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-bottom: 5px;
+    outline: none;
+    
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background: #ffffff0c;
+    color: #fffdfd;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background: #05044160;
+}
+
+/* Estilos para el botón de regreso */
+#regresar-sesionUsuario {
+    padding: 10px 20px;
+    background: #fefafa;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+#regresar-sesionUsuario:hover {
+    background: #fffefe9f;
+}

@@ -1,0 +1,225 @@
+*{
+    text-decoration: none;
+}
+
+.body, .arriba{
+    background-image: url(../img/principal.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+/* ------------------------------- */
+    .arriba{
+        padding-bottom: 1%;
+        background-color: #EFFFC8;
+    }
+        .barra{
+            /* background-color: #333; */
+            background-color: #000000;
+            color: #000000;
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 20px;
+
+        }
+            .logo{
+                color: #ffffff;
+                text-decoration: none;
+                font-weight: bold;
+                font-size: 24px;
+            }
+            .logo a{
+                color: #ffffff;
+            }
+            .navegacion{
+                display: flex;
+                gap: 10px;
+            }
+                .navegacion a{
+                    color: #fff;
+                    text-decoration: none;
+                    font-weight: bold;
+                    font-size: 18px;
+                }
+
+                .iniciarSesion a{
+                    color: #fff;
+                }
+        /* Estilos del banner */
+.banner {
+    background-color: #231bc846;
+    color: #000000;
+    padding: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+.banner-contenedor {
+    display:flow-root;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.banner-contenido {
+    flex: 1;
+    background-color: rgba(250, 247, 247, 0.231);
+    border-radius: 1px;
+    padding:1%;
+    margin:10%;
+    text-align: center;
+
+}
+
+.banner1 {
+    background-image: url('');
+    background-size: cover;
+}
+
+.banner2 {
+    background-image: url('');
+    background-size: cover;
+}
+
+.promocion-titulo {
+    font-size: 28px;
+    margin-top: 0;
+}
+
+.promocion-texto {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.promocion-boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #09564c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.promocion-boton:hover {
+    background-color: #fdfdfd;
+}
+
+/* Estilos para imágenes de fondo */
+.banner-contenido {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+    /* ------------------------------------------------------------------- */
+ /* Estilos para la sección principal */
+.medio {
+    padding: 20px;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.seccion1, .seccion2 {
+    text-align: center;
+    max-width: 900px;
+}
+
+.titulo {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.descripcion {
+    color: #686767;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #025a15bd;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.boton:hover {
+    background-color: #f3eaf058;
+}
+
+/* Estilos para los artículos */
+.articulo {
+    background-color: #090909;
+    padding: 20px;
+    border-radius: 1px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.titulo{
+    color: hsl(0, 11%, 96%);
+}
+
+.descripcion {
+    color: #fffbfb;
+}
+
+.imagen {
+    width: 100%;
+    max-width: 200%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+/* -------------------------------------------------------------- */
+
+    /* ------------------------------------- */
+    /* Agrega este código debajo de las reglas CSS existentes */
+    .abajo {
+        display: flex;
+        justify-content: center; /* Centrar horizontalmente */
+        align-items: center; /* Centrar verticalmente */
+        background-color: #000000; /* Color de fondo del footer */
+        color: #fff; /* Color del texto en el footer */
+        padding: 0px; /* Espaciado interno */
+    }
+
+    .redes-sociales {
+        display: flex;
+        gap: 10px; /* Espaciado entre los iconos de redes sociales */
+    }
+
+    .social-icon {
+        font-size: 24px; /* Tamaño de fuente de los iconos */
+        color: #fff; /* Color de los iconos */
+        text-decoration: none; /* Eliminar subrayado enlaces */
+        transition: color 0.3s; /* Transición de color al pasar el mouse */
+    }
+
+    .social-icon:hover {
+        color: #007bff; /* Cambiar el color al pasar el mouse */
+    }
+
+
+/* ------------------------- */
+/* hover all */
+a:hover{
+    color: #040404;
+}
+button:hover{
+    color: #000000;
+}

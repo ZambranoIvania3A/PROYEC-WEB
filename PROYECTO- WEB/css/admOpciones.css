@@ -1,0 +1,58 @@
+ 
+ body{
+    background-color: #ecefef;
+ }
+ /* Estilos del banner */
+ .banner {
+    background-color: #ffffff;
+    color: #fff;
+    padding: 500px;
+    text-align: center;
+}
+
+.banner-contenido {
+    flex: 1;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+
+.promocion-titulo {
+    font-size: 28px;
+    margin-top: 0;
+}
+
+.promocion-texto {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.promocion-boton {
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: #0c5cd5;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 1px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.promocion-boton:hover {
+    background-color: #74ff58;
+}
+
+/* Estilos para imágenes de fondo */
+.banner-contenido {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

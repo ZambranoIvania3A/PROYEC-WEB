@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/gestionPostulaciones.css">
+    <title>Administrador</title>
+</head>
+<body>
+
+    <!-- Formulario para registrar una postulación -->
+    <form id="registroForm">
+        <label for="carreraPostu">Carrera:</label>
+        <input type="text" id="carreraPostu" required>
+        <label for="facultadPostu">Facultad:</label>
+        <select id="facultadPostu" required>
+            <option value="Facultad 1">Facultad de ingenieria</option>
+            <option value="Facultad 2">Facultad Licenciaturas</option>
+            <option value="Facultad 3">Facultad de ciencias medicas</option>
+            <!-- Agrega más opciones según sea necesario -->
+        </select>
+        <label for="sueldoPostu">Sueldo:</label>
+        <input type="number" id="sueldoPostu" required>
+        <label for="jornada">Jornada:</label>
+        <input type="text" id="jornada" required>
+        <label for="detalles">Detalles:</label>
+        <textarea id="detalles" required></textarea>
+        <button type="button" onclick="registrarPostulacion()">Registrar Postulación</button>
+    </form>
+    <h1>Lista de trabajos disponibles</h1>
+    <!-- Lista para mostrar las postulaciones registradas -->
+    <ul id="listaPostulaciones"></ul>
+    <!-- Lista de postulaciones recibidas -->
+    <h1>Lista de postulaciones recibidas:</h1>
+    <ul id="lista-servicios">
+        <!-- Aquí se mostrarán las postulaciones recibidas -->
+    </ul>
+    <h1>Lista de postulaciones aceptadas</h1>
+    <ul id="lista-aceptadas">
+        <!-- cosos aceptados -->
+    </ul>
+
+
+
+    <!-- Botón para iniciar sesión como usuario -->
+    <button type="button" id="regresar-opciones">Regresar</button>
+    
+    <script src="../javascript/gestionPostulaciones.js"></script>
+    <script src="../javascript/sesionAdmin.js"></script>
+    <script src="../javascript/postulacionesAceptar.js"></script>
+</body>
+</html>

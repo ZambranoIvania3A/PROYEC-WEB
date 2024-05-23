@@ -1,0 +1,112 @@
+/* Resetear estilos por defecto del navegador */
+body, h1, form, label, input, button, .container {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: sans-serif;
+    background-color: #efefef00; 
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+     margin: 0;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 80px;
+    background-color: rgba(253, 253, 253, 0.947);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 1px;
+    text-align: left;
+    background-image: url(../img/ses.jpg);
+     background-size: cover;
+     background-position: center center;
+     background-repeat: no-repeat;
+}
+/* Estilos de texto */
+.container, h3{
+    color: #ffffff;
+}
+
+h1 {
+    color: #fdfcfc;
+    font-size: 30px;
+    margin-bottom: 25px;
+    text-align:center;
+}
+
+
+/* Estilos para el formulario */
+#registro-form {
+    padding: 1px;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #f2f0f0;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #f4f0f0;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #c0afb1;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color: #211e1e;
+}
+
+/* Estilos para el mensaje */
+#message {
+    color: #ff0000;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+
+/* Estilos para los botones de regreso */
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #3c3c3c;
+}
